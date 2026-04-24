@@ -4,9 +4,7 @@
     box-sizing: border-box;
     cursor: none;
 }
-<audio autoplay loop id="bgMusic">
-  <source src="Screen_Recording_20260424_151323.mp4" type="video/mp4">
-</audio>
+
 body {
     min-height: 100vh;
     display: flex;
