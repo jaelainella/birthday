@@ -1,23 +1,23 @@
  // Reasons database
  const reasons = [
     { 
-        text: "You’re such a kind and wonderful person, and I feel lucky to share such a good bond with you. 💖", 
-        emoji: "🌟",
+        text: "you’re such a kind and wonderful person, and I feelll lucky to share such a good bond with you 💋", 
+        emoji: "🐸",
         gif: "gif1.gif"
     },
     { 
-        text: "May your day be filled with love, laughter, and endless joy. 🌸 ", 
-        emoji: "💗",
+        text: "you're gentle and cool, maaay your day be filled with love, laughter, and endless joyyy", 
+        emoji: "🍃",
         gif: "gif2.gif"
     },
     { 
-        text: "Wishing you success, happiness, and everything your heart desires. ✨ ", 
-        emoji: "💕",
+        text: "wishing you success, happiness, and everything your heart desiresss! psalm 37:4, delight thyself also in the Lord, and he shall give you the desires of thine heart. ☘️ ", 
+        emoji: "♻️",
         gif: "gif1.gif"
     },
     { 
-        text: "Stay the amazing girl you are—always spreading positivity around. Have the happiest year ahead! 🥳 ", 
-        emoji: "🌟",
+        text: "stayyy the amazing girl you are—always spreading positivity around. yieeeee! haveee the happiest year ahead! 😽", 
+        emoji: "💲",
         gif: "gif2.gif"
     }
 ];
@@ -76,7 +76,7 @@ function displayNewReason() {
                 duration: 0.5,
                 ease: "elastic.out",
                 onComplete: () => {
-                    shuffleButton.textContent = "Enter Our Storylane 💫";
+                    shuffleButton.textContent = "thee most exciting part is heree:";
                     shuffleButton.classList.add('story-mode');
                     shuffleButton.addEventListener('click', () => {
                         gsap.to('body', {
@@ -117,7 +117,7 @@ shuffleButton.addEventListener('click', () => {
 
 // Floating elements function (same as before)
 function createFloatingElement() {
-    const elements = ['🌸', '✨', '💖', '🦋', '⭐'];
+    const elements = ['💚', '🐸', '🍃', '♻️', '☘️'];
     const element = document.createElement('div');
     element.className = 'floating';
     element.textContent = elements[Math.floor(Math.random() * elements.length)];
